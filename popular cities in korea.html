@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Famous Cities in Korea</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #f0f4ff, #e0e9ff);
+            margin: 0;
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 50px;
+        }
+
+        .cities-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .city {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .city:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .city h2 {
+            color: #34495e;
+        }
+
+        .city p {
+            color: #555;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+
+        .city img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Famous Cities in Korea</h1>
+
+    <div class="cities-container">
+
+        <div class="city">
+            <h2>Seoul</h2>
+            <p>The capital of South Korea, known as the center of politics, economy, and culture.</p>
+            <img src="seoul.jpg" alt="Seoul">
+        </div>
+
+        <div class="city">
+            <h2>Busan</h2>
+            <p>The second largest city, famous for beaches and the Busan International Film Festival.</p>
+            <img src="busan.jpg" alt="Busan">
+        </div>
+
+        <div class="city">
+            <h2>Jeju</h2>
+            <p>A volcanic island and popular tourist destination with beautiful natural scenery.</p>
+            <img src="jeju.jpg" alt="Jeju">
+        </div>
+
+        <div class="city">
+            <h2>Gyeongju</h2>
+            <p>An ancient city rich in history and cultural heritage from the Silla Kingdom.</p>
+            <img src="gyeongju.jpg" alt="Gyeongju">
+        </div>
+
+        <div class="city">
+            <h2>Incheon</h2>
+            <p>A major port city near Seoul and home to Incheon International Airport.</p>
+            <img src="incheon.jpg" alt="Incheon">
+        </div>
+
+    </div>
+
+</body>
+</html>
